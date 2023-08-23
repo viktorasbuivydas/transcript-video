@@ -27,7 +27,7 @@ class TranscriptVideo extends Command
      */
     public function handle()
     {
-        $process = new Process(['python', 'resources/python/transcript.py']);
+        $process = new Process(['python', 'resources/python/transcript.py', 'oWrwTVPyk5I']);
         $process->run();
 
         // executes after the command finishes
